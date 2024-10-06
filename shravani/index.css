@@ -1,0 +1,263 @@
+*body{
+    margin: auto;
+}
+header{
+    height: 60px;
+   /* border: 5px solid rgb(242, 42, 42);*/
+    background-color:#ecc8dc  ;
+
+}
+#brand{
+    
+    font-size: 40px;
+    
+  
+    color: black;
+    
+}
+
+#search{
+    height: 500px;
+    /*border:10px groove rgb(242, 85, 42);*/
+    background-image: url('back.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 500px;
+}
+.bea{
+    
+    margin-left: 70%;
+    font-style: italic;
+    margin-top: 10%;
+  
+    position: absolute;
+}
+.bea>span{
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    
+    position: absolute;
+    font-size: 70px;
+}
+#heading{
+    font-size: 17px;
+    margin-top: 16%;
+    position: absolute;
+    margin-left: 71%;
+
+}
+#psg{
+    font-size: 17px;
+    font-style: italic;
+    position: absolute;
+    margin-left: 62%;
+    margin-top: 18%;
+}
+
+   
+
+
+.pass>p{
+    margin-top: 30%;
+    margin-left: 60%;
+}
+
+
+
+#quicksearch{
+    height: 350px;
+   /*border:10px double rgb(229, 42, 242);*/
+
+}
+
+.qukheding{
+    font-size: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgba(128, 128, 128, 0.855);
+    margin-left: 35%;
+    margin-top: 1%;
+    position:absolute;
+    font-weight: bold;
+}
+
+
+#tilebox{
+    display: flex;
+    flex-wrap: wrap;
+}
+.tilecontainer{
+    height: 230px;
+    width: 230px;
+    /*border: 5px solid grey;*/
+    margin-top: 5%;
+    margin-left: 4%;
+    box-shadow: 10px 20px 10px rgb(29, 22, 29);
+    
+}
+.tilecontainer>img{
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+#type{
+    height: 600px;
+   /* background-color:grey ;*/
+   background-image: url(back3.webp);
+   background-repeat: no-repeat;
+   background-size: 110% 700px;
+   
+    
+    
+}
+#type>span{
+    font-size:50px ;
+    margin-top: 15%;
+    position: absolute;
+    margin-left: 15%;
+    color: rgba(0, 0, 0, 0.685);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#backbox>img{
+    height: 600px;
+    width: 600ox;
+}
+#box{
+    height: 550px;
+    width: 550px;
+    /*border:5px solid darkblue;*/
+   margin-left: 43%;
+   
+    margin-top: 1%;
+    position: absolute;
+    background-color:#cbd9df;
+    display: flex;
+    flex-wrap: wrap;
+}
+.rbox{
+    height: 200px;
+    width: 152px;
+   /* border: 5px solid black;*/
+    margin-left: 4%;
+    margin-top: 3%;
+    
+   
+
+}
+.rbox1{
+   /* background-color: aqua;*/
+    height: 150px;
+   
+
+}
+.rbox1>img{
+    height: 151px;
+}
+.rbox2{
+   
+    height: 100px;
+    
+
+}
+.text{
+    margin-top: 2%;
+    font-size: 20px;
+    margin-left: 3%;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+#type2{
+    height: 330px;
+   /* border:10px double  rgb(125, 42, 242);*/
+    background-color: white;
+    
+    
+}
+.typeheading{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 30px;
+    display: block;
+    margin-top: 1%;
+    margin-left: 45%;
+    color:#2d2e32 ;
+}
+.subtype{
+    font-size: 20px;
+    font-style: italic;
+    margin-top: 2%;
+    margin-left: 40%;
+    color: #323336  ;
+    font-weight: bold;
+    
+    
+}
+
+#typepic{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.epic{
+    height: 200px;
+    width: 200px;
+    /*border: 7px solid grey;*/
+    margin-top: 2%;
+    margin-left: 3%;
+    box-shadow: 10px 20px 10px rgb(54, 47, 54);
+    
+}
+.epic>img{
+    height: 100%;
+    width: 100%;
+}
+
+
+
+.footer{
+    height: 60px;
+    /*border:10px double  rgb(125, 42, 242);*/
+    background-color: #2d2e32;
+    padding: 100px 150px;
+    display: flex;
+    margin-top: 2%;
+
+
+}
+.footer div{
+    text-align: center;
+}
+.col-2{
+    flex-grow: 2;
+}
+.footer div h3{
+    font-weight: 300px;
+   margin-top: 1%;
+    letter-spacing: 1px;
+    color: rgb(226, 137, 21);
+}
+.col-1 a{
+    display: block;
+    text-decoration: none;
+    color: #efefef;
+    margin-bottom: 10px;
+   
+}
+.col-2 p{
+    color:#efefef ;
+    display: block;
+
+}
+.social-icons{
+    margin-top: 2%;
+
+}
+
+.social-icons i{
+    font-size: 25px;
+    margin: 10px;
+    cursor: pointer;
+    color: white;
+}
